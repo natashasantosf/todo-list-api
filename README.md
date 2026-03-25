@@ -1,8 +1,14 @@
 ## 🚀 Task Management API
 
-A secure and scalable REST API for managing tasks with user authentication.
+A secure and scalable REST API for managing tasks with user authentication, built with FastAPI and deployed in production.
 
-Built using FastAPI, SQLAlchemy, and JWT.
+🌐 **Live API:**  
+https://todo-list-api-2-20rt.onrender.com
+
+📚 **Documentation:**  
+https://todo-list-api-2-20rt.onrender.com/redoc
+
+---
 
 🔧 Features:
 
@@ -21,14 +27,17 @@ Built using FastAPI, SQLAlchemy, and JWT.
 - Pydantic
 - JWT (python-jose)
 
-▶️ How to Run:
+## ▶️ How to Run:
+```bash
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
+---
+
 📚 API Documentation:
 
-Swagger UI available at:
-http://127.0.0.1:8000/docs
+- Local: http://127.0.0.1:8000/docs  
+- Online: https://todo-list-api-2-20rt.onrender.com/redoc
 
 💡 Project Purpose:
 
@@ -36,7 +45,6 @@ This project was built to demonstrate backend development skills, including auth
 
 📌 Future Improvements:
 
-- Deployment (Render / Railway)
 - Unit tests
 - Docker support
 - Rate limiting
