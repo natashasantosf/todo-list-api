@@ -27,12 +27,11 @@ https://todo-list-api-2-20rt.onrender.com/redoc
 - Pydantic
 - JWT (python-jose)
 
-## ▶️ How to Run:
-```bash
+▶️ How to Run:
+
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
----
 
 📚 API Documentation:
 
